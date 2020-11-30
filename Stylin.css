@@ -21,7 +21,7 @@ li a {
     text-transform: uppercase;
 }
 
-#information {
+.information {
     background-color: palegoldenrod;
     border: 5px groove red;
     box-shadow: 2px 4px 8px 0 rgb(128, 128, 128);
@@ -30,7 +30,7 @@ li a {
     width: 250px;
 }
 
-    #information:hover {
+    .information:hover {
         transition: transform .5s ease-in-out;
         transform: rotate(9000deg) scale(2);
     }
@@ -53,5 +53,4 @@ li a:active {
 li a:visited {
     background-color: lightpink;
 }
-
 
