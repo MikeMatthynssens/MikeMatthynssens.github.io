@@ -1,0 +1,57 @@
+﻿nav {
+    float: left;
+    height: 100vh;
+    padding: 7px;
+    background-color: palevioletred;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    background-color: forestgreen;
+    color: darkgray;
+    padding: 1em;
+    margin: 1em;
+    text-decoration: none;
+    display: block;
+    border-radius: 1000px;
+    text-transform: uppercase;
+}
+
+#information {
+    background-color: palegoldenrod;
+    border: 5px groove red;
+    box-shadow: 2px 4px 8px 0 rgb(128, 128, 128);
+    padding: 15px;
+    margin: 25px;
+    width: 250px;
+}
+
+    #information:hover {
+        transition: transform .5s ease-in-out;
+        transform: rotate(9000deg) scale(2);
+    }
+
+.main {
+    float: left;
+    display: block;
+    margin-left: 5px;
+}
+
+li a:hover {
+    background-color: mediumaquamarine;
+    cursor: pointer;
+}
+
+li a:active {
+    background-color: lightgoldenrodyellow;
+}
+
+li a:visited {
+    background-color: lightpink;
+}
+
+
