@@ -7,7 +7,7 @@
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
 }
 
 li a {
@@ -30,10 +30,10 @@ li a {
     width: 250px;
 }
 
-    .information:hover {
-        transition: transform .5s ease-in-out;
-        transform: rotate(9000deg) scale(2);
-    }
+.information:hover {
+    transition: transform .5s ease-in-out;
+    transform: rotate(9000deg) scale(2);
+}
 
 .main {
     float: left;
